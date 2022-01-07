@@ -10,11 +10,11 @@
     "skipLibCheck": true,
     "moduleResolution": "node",
     "resolveJsonModule": true,
+    "jsx": "preserve",
+    "jsxImportSource": "solid-js",
     "noUnusedLocals": true,
     "forceConsistentCasingInFileNames": true,
-    "types": [
-      "vite/client"
-    ],
+    "types": ["vite/client", "unplugin-icons/types/solid", "@types/chrome"],
     "paths": {
       "~/*": ["src/*"]
     }
